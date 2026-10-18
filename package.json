@@ -1,0 +1,10 @@
+{
+  "name": "cloudia-configurator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Configuratore di prodotto demo (arredo ufficio) di Cloudia Research S.p.A., integrabile con Microsoft Dynamics 365 Business Central",
+  "scripts": {
+    "test": "node tests/engine.test.js",
+    "export": "python3 tools/export-artifact.py"
+  }
+}
